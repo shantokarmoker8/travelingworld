@@ -165,8 +165,71 @@ a {
   padding: 15px 35px;
   border: none;
 }
-
 /* -- -------------------------------end our popular tours section------------------------------- -- */
+/* -- -------------------------------start choose your destination section------------------------------- -- */
+/* .choose-your-destination {
+  text-align: center;
+}
+.choose-your-destination h1 {
+  text-transform: capitalize;
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-your-destination p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  margin: 24px 0;
+} */
+/* -- -------------------------------end choose your destination section------------------------------- -- */
+/* -- -------------------------------start why choose us section------------------------------- -- */
+.why-choose-us {
+}
+.why-choose-us-header {
+  text-align: center;
+}
+.why-choose-us-header h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.why-choose-us-header p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  margin: 20px 0;
+}
+.content-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.content-area :hover {
+  background: rgba(41, 206, 246, 0.05);
+}
+.content {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 32px;
+  width: 560px;
+}
+.content h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.content p {
+  color: #5a5a5d;
+  font-size: 12px;
+}
+.content img {
+  width: 64px;
+}
+
+/* -- -------------------------------end why choose us section------------------------------- -- */
 
 /* -- -------------------------------end main area------------------------------- -- */
 
@@ -247,5 +310,21 @@ a {
   }
   .article button {
     margin-bottom: 24px;
+  }
+  .why-choose-us-header h1 {
+    font-size: 20px;
+  }
+  .why-choose-us-header p {
+    font-size: 14px;
+  }
+  .content h3 {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .content img {
+    width: 48px;
   }
 }
