@@ -52,9 +52,10 @@ a {
   font-size: 18px;
   font-weight: 400;
 }
-.menubar ul li:first-child a {
+.menubar ul li a:hover {
   color: #ff5400;
 }
+
 .menubar img {
   display: none;
 }
@@ -184,6 +185,8 @@ a {
 /* -- -------------------------------end choose your destination section------------------------------- -- */
 /* -- -------------------------------start why choose us section------------------------------- -- */
 .why-choose-us {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .why-choose-us-header {
   text-align: center;
@@ -228,8 +231,94 @@ a {
 .content img {
   width: 64px;
 }
-
 /* -- -------------------------------end why choose us section------------------------------- -- */
+/* -- -------------------------------start deals & discounts section------------------------------- -- */
+
+.deals-and-discounts-header {
+  text-align: center;
+}
+.deals-and-discounts-header h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deals-and-discounts-header p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.deals-and-discounts-content {
+  border-radius: 16px;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.maldives {
+  background-image: url("../images/Maldives.bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+}
+.indonesia {
+  background-image: url("../images/Indonesia.bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.thiland {
+  background-image: url("../images/Maldives.bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+}
+.card {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  padding: 50px;
+  width: 550px;
+}
+.card ul {
+  display: flex;
+  gap: 20px;
+}
+.card ul li {
+  color: #5a5a5d;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card ul li img {
+  width: 16px;
+}
+.card h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.card p {
+  color: #5a5a5d;
+  font-size: 16px;
+  margin: 16px 0;
+}
+.card h4 {
+  font-size: 20px;
+}
+.card button {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px 25px;
+  margin-top: 20px;
+}
+/* -- -------------------------------end deals & discounts section------------------------------- -- */
 
 /* -- -------------------------------end main area------------------------------- -- */
 
@@ -311,6 +400,10 @@ a {
   .article button {
     margin-bottom: 24px;
   }
+  .why-choose-us {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   .why-choose-us-header h1 {
     font-size: 20px;
   }
@@ -326,5 +419,36 @@ a {
   }
   .content img {
     width: 48px;
+  }
+  .deals-and-discounts-content {
+    padding: 15px;
+  }
+  .deals-and-discounts-header h1 {
+    font-size: 20px;
+  }
+  .deals-and-discounts-header p {
+    font-size: 14px;
+  }
+  .card {
+    margin-top: 100px;
+    padding: 20px;
+  }
+  .card ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card h3 {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card h4 {
+    font-size: 15px;
+  }
+  .card button {
+    font-size: 15px;
+    padding: 10px 20px;
   }
 }
