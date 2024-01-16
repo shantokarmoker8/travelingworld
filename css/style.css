@@ -182,13 +182,13 @@ a {
   }
 
   .option-bar input {
-    width: 100%;
+    width: 451px;
   }
   .option-bar select {
-    width: 100%;
+    width: 451px;
   }
   .option-bar button {
-    width: 100%;
+    width: 451px;
     display: flex;
     justify-content: center;
   }
