@@ -77,7 +77,6 @@ a {
 .disply-section p {
   color: #fff;
   font-size: 16px;
-  font-weight: 400;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -131,8 +130,45 @@ a {
   padding-right: 8px;
 }
 /* -- -------------------------------end disply section------------------------------- -- */
-
 /* -- -------------------------------end header area------------------------------- -- */
+
+/* -- -------------------------------start main area------------------------------- -- */
+/* -- -------------------------------start our popular tours section------------------------------- -- */
+.our-populer-tours {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.article p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  margin: 24px 0;
+}
+.article ul li {
+  list-style: outside;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+}
+.article button {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px 35px;
+  border: none;
+}
+
+/* -- -------------------------------end our popular tours section------------------------------- -- */
+
+/* -- -------------------------------end main area------------------------------- -- */
 
 /* ---------------------------------------------------------------------
 -------------------------------responsive area-----------------------
@@ -191,5 +227,25 @@ a {
     width: 451px;
     display: flex;
     justify-content: center;
+  }
+  .our-populer-tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .article h1 {
+    font-size: 20px;
+  }
+  .article p {
+    font-size: 14px;
+    margin: 16px 0;
+  }
+  .article ul li {
+    font-size: 14px;
+  }
+  .article button {
+    margin-bottom: 24px;
   }
 }
