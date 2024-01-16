@@ -56,5 +56,36 @@ a {
 .menubar ul li:first-child a {
   color: #ff5400;
 }
+.menubar img {
+  display: none;
+}
 /* -- -------------------------------end menu section------------------------------- -- */
 /* -- -------------------------------end header area------------------------------- -- */
+
+/* ---------------------------------------------------------------------
+-------------------------------responsive area-----------------------
+--------------------------------------------------------------------- */
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0 20px;
+  }
+  .menu-section {
+    margin: 20px 0;
+  }
+  .logo img {
+    width: 28.724px;
+  }
+  .logo h1 {
+    font-size: 21.543px;
+  }
+  .menubar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menubar ul {
+    display: none;
+  }
+  .menubar img {
+    display: block;
+  }
+}
