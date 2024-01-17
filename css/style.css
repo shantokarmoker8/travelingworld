@@ -34,6 +34,9 @@ a {
   align-items: center;
   width: 50%;
 }
+.logo a {
+  display: flex;
+}
 .logo h1 {
   padding-left: 10px;
   color: #131318;
@@ -168,7 +171,7 @@ a {
 }
 /* -- -------------------------------end our popular tours section------------------------------- -- */
 /* -- -------------------------------start choose your destination section------------------------------- -- */
-/* .choose-your-destination {
+.choose-your-destination {
   text-align: center;
 }
 .choose-your-destination h1 {
@@ -181,7 +184,56 @@ a {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   margin: 24px 0;
-} */
+}
+
+.destinasion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.country {
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.country h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.maldivesbg {
+  background-image: url(../images/Maldives.png);
+  width: 563px;
+}
+.indonesiabg {
+  background-image: url(../images/Indonesia.png);
+  width: 563px;
+}
+.srilanka {
+  background-image: url(../images/Srilanka.png);
+  width: 370px;
+}
+.north-america {
+  background-image: url(../images/North-America.png);
+  width: 470px;
+}
+.kashmir {
+  background-image: url(../images/Kashmir.png);
+  width: 265px;
+}
+.bangladeshbg {
+  background-image: url(../images/Bangladesh.png);
+  width: 455px;
+}
+.bandarbanbg {
+  background-image: url(../images/Bandarban.png);
+  width: 665px;
+}
 /* -- -------------------------------end choose your destination section------------------------------- -- */
 /* -- -------------------------------start why choose us section------------------------------- -- */
 .why-choose-us {
@@ -577,6 +629,19 @@ a {
   }
   .article button {
     margin-bottom: 24px;
+  }
+
+  .choose-your-destination h1 {
+    font-size: 20px;
+  }
+  .choose-your-destination p {
+    font-size: 14px;
+  }
+  .country {
+    width: 100%;
+  }
+  .country h3 {
+    font-size: 20px;
   }
   .why-choose-us {
     margin-top: 25px;
