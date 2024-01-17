@@ -459,6 +459,10 @@ a {
   font-size: 32px;
   font-weight: 800;
 }
+
+/* -- -------------------------------end contact section------------------------------- -- */
+
+/* -- -------------------------------end main area------------------------------- -- */
 .footer-area {
   background: rgba(19, 19, 24, 0.05);
   text-align: center;
@@ -467,24 +471,39 @@ a {
 }
 .footer-area p {
   margin: 30px 0;
+  font-size: 16px;
+  color: #5a5a5d;
 }
 
 .footer-head {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
   padding-bottom: 50px;
 }
-.footer-head h1 img {
-  width: 40px;
+.footer-head h1 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 32px;
 }
-
-/* -- -------------------------------end contact section------------------------------- -- */
-
-/* -- -------------------------------end main area------------------------------- -- */
-
+.footer-head ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-head ul li a img {
+  height: 24px;
+}
+.copyright p {
+  color: #131318;
+  font-size: 16px;
+}
 /* ---------------------------------------------------------------------
 -------------------------------responsive area-----------------------
 --------------------------------------------------------------------- */
 @media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
   .container {
     margin: 0 20px;
   }
@@ -652,5 +671,15 @@ a {
   }
   .discounts-card h3 {
     font-size: 21.138px;
+  }
+
+  .footer-head h1 {
+    font-size: 21.543px;
+  }
+  .footer-head p {
+    font-size: 14px;
+  }
+  .copyright p {
+    font-size: 14px;
   }
 }
