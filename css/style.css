@@ -768,4 +768,8 @@ a {
   .image img {
     width: 100%;
   }
+  .discounts-card {
+    width: 219px;
+    padding: 10px 20px;
+  }
 }
