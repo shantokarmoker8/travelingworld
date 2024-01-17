@@ -159,6 +159,7 @@ a {
   list-style: outside;
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
+  margin-left: 15px;
 }
 .article button {
   border-radius: 8px;
@@ -410,6 +411,7 @@ a {
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 16px;
+  margin-left: 15px;
 }
 .simple-place-article button {
   border: none;
@@ -746,5 +748,8 @@ a {
   }
   .copyright p {
     font-size: 14px;
+  }
+  .footer-head h1 img {
+    width: 24px;
   }
 }
