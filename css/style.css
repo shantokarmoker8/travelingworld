@@ -127,6 +127,7 @@ a {
   font-size: 16px;
   font-weight: 700;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 174px;
   height: 52px;
