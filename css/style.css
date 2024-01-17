@@ -753,3 +753,19 @@ a {
     width: 24px;
   }
 }
+@media screen and (max-width: 414px) {
+  .option-bar input {
+    width: 340px;
+  }
+  .option-bar select {
+    width: 340px;
+  }
+  .option-bar button {
+    width: 340px;
+    display: flex;
+    justify-content: center;
+  }
+  .image img {
+    width: 100%;
+  }
+}
